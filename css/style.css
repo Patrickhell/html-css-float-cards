@@ -3,14 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
 body{
     font-family: 'Roboto', sans-serif;
-}
-
-main{
-    width: 900px;
-    height: 600px;
-   
+    width: 1000px;
     margin: 0 auto;
     padding-left: 10%;
     padding-right: 10%;
@@ -33,5 +30,28 @@ main{
 .titolo-paragrafo{
    padding-top:40px;
 }
+.super-container-1{
+    width:1000px;
+   
+    
+}
 
+.box-clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mini-Container{
+    float:left;
+    background-color: red;
+    width:230px ;
+    height: 80px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.imagine-testo-float{
+    float: left;
+}
+   
 
