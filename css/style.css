@@ -1,0 +1,37 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width: 900px;
+    height: 600px;
+   
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#Titolo{
+    font-size: 30px;
+    color: rgb(207, 13, 13);
+    text-align: center;
+}
+
+#Testo{
+    font-size: 13px;
+    color:rgb(82, 79, 79);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align:center;
+}
+
+.titolo-paragrafo{
+   padding-top:40px;
+}
+
+
