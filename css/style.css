@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
     padding-left: 10%;
     padding-right: 10%;
@@ -31,7 +31,7 @@ body{
    padding-top:40px;
 }
 .super-container-1{
-    width:1000px;
+    width:1100px;
    
     
 }
@@ -44,14 +44,44 @@ body{
 
 .mini-Container{
     float:left;
-    background-color: red;
-    width:230px ;
+    background-color:#130f1a;
+    position: relative;
+    width:260px ;
     height: 80px;
     margin-left: 8px;
     margin-right: 8px;
+    margin-bottom:40px;
+    
+    
 }
-.imagine-testo-float{
+.imagine-float{
     float: left;
+    position: absolute;
+    width: 100px;
+    height: 80px;   
+}
+.credenziali{
+    float:right;
+    width:180px;
+    padding-left: 30px; 
+    padding-top: 5px;    
+}
+
+.nome{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: white;
+}
+.professione{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+.email{
+    font-size: 12px;
+    margin-bottom: 10px; 
+    color:#1f8bd3
 }
    
 
